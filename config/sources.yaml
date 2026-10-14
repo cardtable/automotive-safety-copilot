@@ -1,0 +1,82 @@
+# Corpus manifest. Every document here is fetched from its official publisher.
+#
+# FMVSS: 49 CFR Part 571 via the eCFR versioner API (XML, one file per standard).
+# UN/ECE: 1958 Agreement regulations via the UN Official Document System
+#   (symbol E/ECE/TRANS/505/Rev.N/Add.M[/Rev.K]); the downloader resolves the
+#   newest consolidated revision ("/Rev.K") automatically.
+# Euro NCAP: 2026 test & assessment protocols from cdn.euroncap.com.
+
+fmvss:
+  ecfr_date: latest          # or an ISO date, e.g. 2026-10-01
+  sections:                  # 49 CFR 571.<n>
+    - "101"   # Controls and displays
+    - "108"   # Lamps, reflective devices
+    - "111"   # Rear visibility
+    - "126"   # Electronic stability control
+    - "127"   # Automatic emergency braking
+    - "135"   # Light vehicle brake systems
+    - "138"   # Tire pressure monitoring
+    - "201"   # Occupant protection in interior impact
+    - "202a"  # Head restraints
+    - "203"   # Impact protection from steering control
+    - "205"   # Glazing materials
+    - "207"   # Seating systems
+    - "208"   # Occupant crash protection
+    - "209"   # Seat belt assemblies
+    - "210"   # Seat belt assembly anchorages
+    - "213"   # Child restraint systems
+    - "214"   # Side impact protection
+    - "216a"  # Roof crush resistance
+    - "225"   # Child restraint anchorage systems
+    - "226"   # Ejection mitigation
+    - "301"   # Fuel system integrity
+    - "305a"  # Electric-powered vehicles: electrolyte spillage and shock protection
+
+unece:
+  # reg: UN Regulation number; series: 505 revision series holding the addendum
+  - {reg: 14,  series: 1, title: "Safety-belt anchorages"}
+  - {reg: 16,  series: 1, title: "Safety-belts and restraint systems"}
+  - {reg: 17,  series: 1, title: "Strength of seats and their anchorages, head restraints"}
+  - {reg: 48,  series: 1, title: "Installation of lighting and light-signalling devices"}
+  - {reg: 79,  series: 1, title: "Steering equipment"}
+  - {reg: 94,  series: 1, title: "Frontal collision (offset)"}
+  - {reg: 95,  series: 1, title: "Lateral collision"}
+  - {reg: 100, series: 2, title: "Electric power train vehicles"}
+  - {reg: 127, series: 2, title: "Pedestrian safety"}
+  - {reg: 129, series: 2, title: "Enhanced Child Restraint Systems"}
+  - {reg: 135, series: 2, title: "Pole Side Impact"}
+  - {reg: 137, series: 2, title: "Frontal impact (full width)"}
+  - {reg: 152, series: 3, title: "Advanced Emergency Braking System (AEBS) for M1 and N1"}
+  - {reg: 157, series: 3, title: "Automated Lane Keeping Systems (ALKS)"}
+
+euroncap:
+  - id: ncap-cp-frontal
+    title: "Euro NCAP Protocol - Crash Protection - Frontal Impact v1.2"
+    url: https://cdn.euroncap.com/cars/assets/Euro_NCAP_Protocol_Crash_Protection_Frontal_Impact_v1_2_7f33c197c2.pdf
+  - id: ncap-cp-side
+    title: "Euro NCAP Protocol - Crash Protection - Side Impact v1.2"
+    url: https://cdn.euroncap.com/cars/assets/Euro_NCAP_Protocol_Crash_Protection_Side_Impact_v1_2_310a585f8c.pdf
+  - id: ncap-cp-rear
+    title: "Euro NCAP Protocol - Crash Protection - Rear Impact v1.2"
+    url: https://cdn.euroncap.com/cars/assets/Euro_NCAP_Protocol_Crash_Protection_Rear_Impact_v1_2_47a249dae9.pdf
+  - id: ncap-cp-vru
+    title: "Euro NCAP Protocol - Crash Protection - Vulnerable Road User Impact v1.2"
+    url: https://cdn.euroncap.com/cars/assets/Euro_NCAP_Protocol_Crash_Protection_Vulnerable_Road_User_Impact_v1_2_d8859cbe57.pdf
+  - id: ncap-ca-frontal
+    title: "Euro NCAP Protocol - Crash Avoidance - Frontal Collisions v1.2"
+    url: https://cdn.euroncap.com/cars/assets/Euro_NCAP_Protocol_Crash_Avoidance_Frontal_Collisions_v1_2_220d87e28a.pdf
+  - id: ncap-ca-lane
+    title: "Euro NCAP Protocol - Crash Avoidance - Lane Departure Collisions v1.2"
+    url: https://cdn.euroncap.com/cars/assets/Euro_NCAP_Protocol_Crash_Avoidance_Lane_Departure_Collisions_v1_2_4c2613beca.pdf
+  - id: ncap-ca-lowspeed
+    title: "Euro NCAP Protocol - Crash Avoidance - Low Speed Collisions v1.2"
+    url: https://cdn.euroncap.com/cars/assets/Euro_NCAP_Protocol_Crash_Avoidance_Low_Speed_Collisions_v1_2_3d24fa41ea.pdf
+  - id: ncap-cp-modifiers
+    title: "Euro NCAP CP 007 - Assessment Modifiers v1.2"
+    url: https://cdn.euroncap.com/cars/assets/CP_007_Assessment_Modifiers_v1_2_e05b3e9fd1.pdf
+  - id: ncap-cp-child
+    title: "Euro NCAP CP 008-1 - Child Occupant Protection v1.3"
+    url: https://cdn.euroncap.com/cars/assets/CP_008_1_Child_Occupant_Protection_v1_3_c6a5b1e300.pdf
+  - id: ncap-cp-definitions
+    title: "Euro NCAP CP 001 - Crash Protection Definitions v1.0"
+    url: https://cdn.euroncap.com/cars/assets/cp_001_crash_protection_definitions_v10_3e451a0fdf.pdf

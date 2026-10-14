@@ -1,0 +1,44 @@
+[project]
+name = "safety-copilot"
+version = "0.1.0"
+description = "Automotive Safety Standards Copilot: clause-cited RAG over FMVSS, UN/ECE and Euro NCAP"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "anthropic>=0.70",
+    "langgraph>=0.6",
+    "chromadb>=1.0",
+    "sentence-transformers>=3.0",
+    "rank-bm25>=0.2.2",
+    "pymupdf>=1.24",
+    "lxml>=5.0",
+    "httpx>=0.27",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.3",
+    "pyyaml>=6.0",
+    "streamlit>=1.38",
+    "tqdm>=4.66",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+copilot-download = "copilot.ingest.download:main"
+copilot-index = "copilot.ingest.build_index:main"
+copilot-ask = "copilot.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/copilot"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 110

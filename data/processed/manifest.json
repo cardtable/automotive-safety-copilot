@@ -1,0 +1,539 @@
+{
+  "totals": {
+    "documents": 46,
+    "pdf_pages": 1545,
+    "cfr_pages_estimated": 222,
+    "clauses": 11364,
+    "chunks": 3565,
+    "by_family": {
+      "FMVSS": {
+        "documents": 22,
+        "pages": 222,
+        "clauses": 3181,
+        "chunks": 1224
+      },
+      "UN/ECE": {
+        "documents": 14,
+        "pages": 1100,
+        "clauses": 7280,
+        "chunks": 1870
+      },
+      "Euro NCAP": {
+        "documents": 10,
+        "pages": 445,
+        "clauses": 903,
+        "chunks": 471
+      }
+    },
+    "total_pages": 1767
+  },
+  "documents": [
+    {
+      "doc_id": "fmvss-101",
+      "family": "FMVSS",
+      "title": "FMVSS No. 101 (Controls and displays)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.101",
+      "pages": 2,
+      "page_basis": "cfr-estimate",
+      "clauses": 42,
+      "chunks": 15
+    },
+    {
+      "doc_id": "fmvss-108",
+      "family": "FMVSS",
+      "title": "FMVSS No. 108 (Lamps, reflective devices, and associated equipment)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.108",
+      "pages": 42,
+      "page_basis": "cfr-estimate",
+      "clauses": 1148,
+      "chunks": 220
+    },
+    {
+      "doc_id": "fmvss-111",
+      "family": "FMVSS",
+      "title": "FMVSS No. 111 (Rear visibility)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.111",
+      "pages": 6,
+      "page_basis": "cfr-estimate",
+      "clauses": 98,
+      "chunks": 42
+    },
+    {
+      "doc_id": "fmvss-126",
+      "family": "FMVSS",
+      "title": "FMVSS No. 126 (Electronic stability control systems for light vehicles)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.126",
+      "pages": 5,
+      "page_basis": "cfr-estimate",
+      "clauses": 112,
+      "chunks": 34
+    },
+    {
+      "doc_id": "fmvss-127",
+      "family": "FMVSS",
+      "title": "FMVSS No. 127 (Automatic emergency braking systems for light vehicles)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.127",
+      "pages": 7,
+      "page_basis": "cfr-estimate",
+      "clauses": 111,
+      "chunks": 42
+    },
+    {
+      "doc_id": "fmvss-135",
+      "family": "FMVSS",
+      "title": "FMVSS No. 135 (Light vehicle brake systems)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.135",
+      "pages": 10,
+      "page_basis": "cfr-estimate",
+      "clauses": 145,
+      "chunks": 57
+    },
+    {
+      "doc_id": "fmvss-138",
+      "family": "FMVSS",
+      "title": "FMVSS No. 138 (Tire pressure monitoring systems)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.138",
+      "pages": 3,
+      "page_basis": "cfr-estimate",
+      "clauses": 35,
+      "chunks": 20
+    },
+    {
+      "doc_id": "fmvss-201",
+      "family": "FMVSS",
+      "title": "FMVSS No. 201 (Occupant protection in interior impact)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.201",
+      "pages": 12,
+      "page_basis": "cfr-estimate",
+      "clauses": 109,
+      "chunks": 66
+    },
+    {
+      "doc_id": "fmvss-202a",
+      "family": "FMVSS",
+      "title": "FMVSS No. 202a (Head restraints)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.202a",
+      "pages": 7,
+      "page_basis": "cfr-estimate",
+      "clauses": 63,
+      "chunks": 37
+    },
+    {
+      "doc_id": "fmvss-203",
+      "family": "FMVSS",
+      "title": "FMVSS No. 203 (Impact protection for the driver from the steering control system)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.203",
+      "pages": 1,
+      "page_basis": "cfr-estimate",
+      "clauses": 7,
+      "chunks": 5
+    },
+    {
+      "doc_id": "fmvss-205",
+      "family": "FMVSS",
+      "title": "FMVSS No. 205 (Glazing materials)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.205",
+      "pages": 1,
+      "page_basis": "cfr-estimate",
+      "clauses": 20,
+      "chunks": 8
+    },
+    {
+      "doc_id": "fmvss-207",
+      "family": "FMVSS",
+      "title": "FMVSS No. 207 (Seating systems)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.207",
+      "pages": 1,
+      "page_basis": "cfr-estimate",
+      "clauses": 20,
+      "chunks": 9
+    },
+    {
+      "doc_id": "fmvss-208",
+      "family": "FMVSS",
+      "title": "FMVSS No. 208 (Occupant crash protection)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.208",
+      "pages": 54,
+      "page_basis": "cfr-estimate",
+      "clauses": 713,
+      "chunks": 298
+    },
+    {
+      "doc_id": "fmvss-209",
+      "family": "FMVSS",
+      "title": "FMVSS No. 209 (Seat belt assemblies)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.209",
+      "pages": 9,
+      "page_basis": "cfr-estimate",
+      "clauses": 15,
+      "chunks": 36
+    },
+    {
+      "doc_id": "fmvss-210",
+      "family": "FMVSS",
+      "title": "FMVSS No. 210 (Seat belt assembly anchorages)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.210",
+      "pages": 4,
+      "page_basis": "cfr-estimate",
+      "clauses": 38,
+      "chunks": 25
+    },
+    {
+      "doc_id": "fmvss-213",
+      "family": "FMVSS",
+      "title": "FMVSS No. 213 (Child restraint systems)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.213",
+      "pages": 19,
+      "page_basis": "cfr-estimate",
+      "clauses": 112,
+      "chunks": 92
+    },
+    {
+      "doc_id": "fmvss-214",
+      "family": "FMVSS",
+      "title": "FMVSS No. 214 (Side impact protection)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.214",
+      "pages": 14,
+      "page_basis": "cfr-estimate",
+      "clauses": 114,
+      "chunks": 68
+    },
+    {
+      "doc_id": "fmvss-216a",
+      "family": "FMVSS",
+      "title": "FMVSS No. 216a (Roof crush resistance)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.216a",
+      "pages": 2,
+      "page_basis": "cfr-estimate",
+      "clauses": 29,
+      "chunks": 16
+    },
+    {
+      "doc_id": "fmvss-225",
+      "family": "FMVSS",
+      "title": "FMVSS No. 225 (Child restraint anchorage systems)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.225",
+      "pages": 7,
+      "page_basis": "cfr-estimate",
+      "clauses": 59,
+      "chunks": 38
+    },
+    {
+      "doc_id": "fmvss-226",
+      "family": "FMVSS",
+      "title": "FMVSS No. 226 (Ejection Mitigation)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.226",
+      "pages": 5,
+      "page_basis": "cfr-estimate",
+      "clauses": 69,
+      "chunks": 32
+    },
+    {
+      "doc_id": "fmvss-301",
+      "family": "FMVSS",
+      "title": "FMVSS No. 301 (Fuel system integrity)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.301",
+      "pages": 2,
+      "page_basis": "cfr-estimate",
+      "clauses": 44,
+      "chunks": 18
+    },
+    {
+      "doc_id": "fmvss-305a",
+      "family": "FMVSS",
+      "title": "FMVSS No. 305a (Electric-powered vehicles: Electric powertrain integrity)",
+      "version": "eCFR as of 2026-10-09",
+      "source_url": "https://www.ecfr.gov/on/2026-10-09/title-49/section-571.305a",
+      "pages": 9,
+      "page_basis": "cfr-estimate",
+      "clauses": 78,
+      "chunks": 46
+    },
+    {
+      "doc_id": "unece-r14",
+      "family": "UN/ECE",
+      "title": "UN Regulation No. 14 - Safety-belt anchorages",
+      "version": "E/ECE/TRANS/505/Rev.1/Add.13/Rev.7",
+      "source_url": "https://documents.un.org/api/symbol/access?s=E/ECE/TRANS/505/Rev.1/Add.13/Rev.7&l=en&t=pdf",
+      "pages": 36,
+      "page_basis": "pdf",
+      "clauses": 255,
+      "chunks": 67
+    },
+    {
+      "doc_id": "unece-r16",
+      "family": "UN/ECE",
+      "title": "UN Regulation No. 16 - Safety-belts and restraint systems",
+      "version": "E/ECE/TRANS/505/Rev.1/Add.15/Rev.10",
+      "source_url": "https://documents.un.org/api/symbol/access?s=E/ECE/TRANS/505/Rev.1/Add.15/Rev.10&l=en&t=pdf",
+      "pages": 113,
+      "page_basis": "pdf",
+      "clauses": 614,
+      "chunks": 180
+    },
+    {
+      "doc_id": "unece-r17",
+      "family": "UN/ECE",
+      "title": "UN Regulation No. 17 - Strength of seats and their anchorages, head restraints",
+      "version": "E/ECE/TRANS/505/Rev.1/Add.16/Rev.7",
+      "source_url": "https://documents.un.org/api/symbol/access?s=E/ECE/TRANS/505/Rev.1/Add.16/Rev.7&l=en&t=pdf",
+      "pages": 67,
+      "page_basis": "pdf",
+      "clauses": 504,
+      "chunks": 124
+    },
+    {
+      "doc_id": "unece-r48",
+      "family": "UN/ECE",
+      "title": "UN Regulation No. 48 - Installation of lighting and light-signalling devices",
+      "version": "E/ECE/TRANS/505/Rev.1/Add.47/Rev.13",
+      "source_url": "https://documents.un.org/api/symbol/access?s=E/ECE/TRANS/505/Rev.1/Add.47/Rev.13&l=en&t=pdf",
+      "pages": 123,
+      "page_basis": "pdf",
+      "clauses": 1001,
+      "chunks": 227
+    },
+    {
+      "doc_id": "unece-r79",
+      "family": "UN/ECE",
+      "title": "UN Regulation No. 79 - Steering equipment",
+      "version": "E/ECE/TRANS/505/Rev.1/Add.78/Rev.5",
+      "source_url": "https://documents.un.org/api/symbol/access?s=E/ECE/TRANS/505/Rev.1/Add.78/Rev.5&l=en&t=pdf",
+      "pages": 70,
+      "page_basis": "pdf",
+      "clauses": 579,
+      "chunks": 154
+    },
+    {
+      "doc_id": "unece-r94",
+      "family": "UN/ECE",
+      "title": "UN Regulation No. 94 - Frontal collision (offset)",
+      "version": "E/ECE/TRANS/505/Rev.1/Add.93/Rev.4",
+      "source_url": "https://documents.un.org/api/symbol/access?s=E/ECE/TRANS/505/Rev.1/Add.93/Rev.4&l=en&t=pdf",
+      "pages": 69,
+      "page_basis": "pdf",
+      "clauses": 436,
+      "chunks": 107
+    },
+    {
+      "doc_id": "unece-r95",
+      "family": "UN/ECE",
+      "title": "UN Regulation No. 95 - Lateral collision",
+      "version": "E/ECE/TRANS/505/Rev.1/Add.94/Rev.4",
+      "source_url": "https://documents.un.org/api/symbol/access?s=E/ECE/TRANS/505/Rev.1/Add.94/Rev.4&l=en&t=pdf",
+      "pages": 80,
+      "page_basis": "pdf",
+      "clauses": 580,
+      "chunks": 110
+    },
+    {
+      "doc_id": "unece-r100",
+      "family": "UN/ECE",
+      "title": "UN Regulation No. 100 - Electric power train vehicles",
+      "version": "E/ECE/TRANS/505/Rev.2/Add.99/Rev.3",
+      "source_url": "https://documents.un.org/api/symbol/access?s=E/ECE/TRANS/505/Rev.2/Add.99/Rev.3&l=en&t=pdf",
+      "pages": 95,
+      "page_basis": "pdf",
+      "clauses": 516,
+      "chunks": 161
+    },
+    {
+      "doc_id": "unece-r127",
+      "family": "UN/ECE",
+      "title": "UN Regulation No. 127 - Pedestrian safety",
+      "version": "E/ECE/TRANS/505/Rev.2/Add.126/Rev.3",
+      "source_url": "https://documents.un.org/api/symbol/access?s=E/ECE/TRANS/505/Rev.2/Add.126/Rev.3&l=en&t=pdf",
+      "pages": 57,
+      "page_basis": "pdf",
+      "clauses": 289,
+      "chunks": 89
+    },
+    {
+      "doc_id": "unece-r129",
+      "family": "UN/ECE",
+      "title": "UN Regulation No. 129 - Enhanced Child Restraint Systems",
+      "version": "E/ECE/TRANS/505/Rev.2/Add.128/Rev.4",
+      "source_url": "https://documents.un.org/api/symbol/access?s=E/ECE/TRANS/505/Rev.2/Add.128/Rev.4&l=en&t=pdf",
+      "pages": 145,
+      "page_basis": "pdf",
+      "clauses": 866,
+      "chunks": 229
+    },
+    {
+      "doc_id": "unece-r135",
+      "family": "UN/ECE",
+      "title": "UN Regulation No. 135 - Pole Side Impact",
+      "version": "E/ECE/TRANS/505/Rev.2/Add.134/Rev.2",
+      "source_url": "https://documents.un.org/api/symbol/access?s=E/ECE/TRANS/505/Rev.2/Add.134/Rev.2&l=en&t=pdf",
+      "pages": 54,
+      "page_basis": "pdf",
+      "clauses": 468,
+      "chunks": 103
+    },
+    {
+      "doc_id": "unece-r137",
+      "family": "UN/ECE",
+      "title": "UN Regulation No. 137 - Frontal impact (full width)",
+      "version": "E/ECE/TRANS/505/Rev.2/Add.136/Rev.2",
+      "source_url": "https://documents.un.org/api/symbol/access?s=E/ECE/TRANS/505/Rev.2/Add.136/Rev.2&l=en&t=pdf",
+      "pages": 53,
+      "page_basis": "pdf",
+      "clauses": 392,
+      "chunks": 91
+    },
+    {
+      "doc_id": "unece-r152",
+      "family": "UN/ECE",
+      "title": "UN Regulation No. 152 - Advanced Emergency Braking System (AEBS) for M1 and N1",
+      "version": "E/ECE/TRANS/505/Rev.3/Add.151/Rev.2",
+      "source_url": "https://documents.un.org/api/symbol/access?s=E/ECE/TRANS/505/Rev.3/Add.151/Rev.2&l=en&t=pdf",
+      "pages": 36,
+      "page_basis": "pdf",
+      "clauses": 211,
+      "chunks": 69
+    },
+    {
+      "doc_id": "unece-r157",
+      "family": "UN/ECE",
+      "title": "UN Regulation No. 157 - Automated Lane Keeping Systems (ALKS)",
+      "version": "E/ECE/TRANS/505/Rev.3/Add.156/Rev.1",
+      "source_url": "https://documents.un.org/api/symbol/access?s=E/ECE/TRANS/505/Rev.3/Add.156/Rev.1&l=en&t=pdf",
+      "pages": 102,
+      "page_basis": "pdf",
+      "clauses": 569,
+      "chunks": 159
+    },
+    {
+      "doc_id": "ncap-cp-frontal",
+      "family": "Euro NCAP",
+      "title": "Euro NCAP Protocol - Crash Protection - Frontal Impact v1.2",
+      "version": "v1.2",
+      "source_url": "https://cdn.euroncap.com/cars/assets/Euro_NCAP_Protocol_Crash_Protection_Frontal_Impact_v1_2_7f33c197c2.pdf",
+      "pages": 34,
+      "page_basis": "pdf",
+      "clauses": 57,
+      "chunks": 48
+    },
+    {
+      "doc_id": "ncap-cp-side",
+      "family": "Euro NCAP",
+      "title": "Euro NCAP Protocol - Crash Protection - Side Impact v1.2",
+      "version": "v1.2",
+      "source_url": "https://cdn.euroncap.com/cars/assets/Euro_NCAP_Protocol_Crash_Protection_Side_Impact_v1_2_310a585f8c.pdf",
+      "pages": 38,
+      "page_basis": "pdf",
+      "clauses": 67,
+      "chunks": 46
+    },
+    {
+      "doc_id": "ncap-cp-rear",
+      "family": "Euro NCAP",
+      "title": "Euro NCAP Protocol - Crash Protection - Rear Impact v1.2",
+      "version": "v1.2",
+      "source_url": "https://cdn.euroncap.com/cars/assets/Euro_NCAP_Protocol_Crash_Protection_Rear_Impact_v1_2_47a249dae9.pdf",
+      "pages": 57,
+      "page_basis": "pdf",
+      "clauses": 101,
+      "chunks": 69
+    },
+    {
+      "doc_id": "ncap-cp-vru",
+      "family": "Euro NCAP",
+      "title": "Euro NCAP Protocol - Crash Protection - Vulnerable Road User Impact v1.2",
+      "version": "v1.2",
+      "source_url": "https://cdn.euroncap.com/cars/assets/Euro_NCAP_Protocol_Crash_Protection_Vulnerable_Road_User_Impact_v1_2_d8859cbe57.pdf",
+      "pages": 66,
+      "page_basis": "pdf",
+      "clauses": 347,
+      "chunks": 81
+    },
+    {
+      "doc_id": "ncap-ca-frontal",
+      "family": "Euro NCAP",
+      "title": "Euro NCAP Protocol - Crash Avoidance - Frontal Collisions v1.2",
+      "version": "v1.2",
+      "source_url": "https://cdn.euroncap.com/cars/assets/Euro_NCAP_Protocol_Crash_Avoidance_Frontal_Collisions_v1_2_220d87e28a.pdf",
+      "pages": 85,
+      "page_basis": "pdf",
+      "clauses": 103,
+      "chunks": 68
+    },
+    {
+      "doc_id": "ncap-ca-lane",
+      "family": "Euro NCAP",
+      "title": "Euro NCAP Protocol - Crash Avoidance - Lane Departure Collisions v1.2",
+      "version": "v1.2",
+      "source_url": "https://cdn.euroncap.com/cars/assets/Euro_NCAP_Protocol_Crash_Avoidance_Lane_Departure_Collisions_v1_2_4c2613beca.pdf",
+      "pages": 45,
+      "page_basis": "pdf",
+      "clauses": 81,
+      "chunks": 44
+    },
+    {
+      "doc_id": "ncap-ca-lowspeed",
+      "family": "Euro NCAP",
+      "title": "Euro NCAP Protocol - Crash Avoidance - Low Speed Collisions v1.2",
+      "version": "v1.2",
+      "source_url": "https://cdn.euroncap.com/cars/assets/Euro_NCAP_Protocol_Crash_Avoidance_Low_Speed_Collisions_v1_2_3d24fa41ea.pdf",
+      "pages": 47,
+      "page_basis": "pdf",
+      "clauses": 67,
+      "chunks": 37
+    },
+    {
+      "doc_id": "ncap-cp-modifiers",
+      "family": "Euro NCAP",
+      "title": "Euro NCAP CP 007 - Assessment Modifiers v1.2",
+      "version": "v1.2",
+      "source_url": "https://cdn.euroncap.com/cars/assets/CP_007_Assessment_Modifiers_v1_2_e05b3e9fd1.pdf",
+      "pages": 28,
+      "page_basis": "pdf",
+      "clauses": 19,
+      "chunks": 24
+    },
+    {
+      "doc_id": "ncap-cp-child",
+      "family": "Euro NCAP",
+      "title": "Euro NCAP CP 008-1 - Child Occupant Protection v1.3",
+      "version": "v1.3",
+      "source_url": "https://cdn.euroncap.com/cars/assets/CP_008_1_Child_Occupant_Protection_v1_3_c6a5b1e300.pdf",
+      "pages": 28,
+      "page_basis": "pdf",
+      "clauses": 54,
+      "chunks": 44
+    },
+    {
+      "doc_id": "ncap-cp-definitions",
+      "family": "Euro NCAP",
+      "title": "Euro NCAP CP 001 - Crash Protection Definitions v1.0",
+      "version": "v1.0",
+      "source_url": "https://cdn.euroncap.com/cars/assets/cp_001_crash_protection_definitions_v10_3e451a0fdf.pdf",
+      "pages": 17,
+      "page_basis": "pdf",
+      "clauses": 7,
+      "chunks": 10
+    }
+  ],
+  "built_at": "2026-10-14 12:11"
+}

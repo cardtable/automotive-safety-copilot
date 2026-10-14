@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/raw/
+data/chroma/
+.pytest_cache/
+.ruff_cache/
+data/processed/*.jsonl
+.DS_Store
+eval/results/retrieval-*.json
+eval/results/full-*.json
